@@ -13,6 +13,35 @@
     padding: 1.75rem;
     border-radius: 1rem;
     background-color: #49d0b0;
+    cursor: grab;
+    transform-origin: center bottom;
+    transition: box-shadow .2s ease;
+}
+
+.pokemon:hover {
+    animation: pokemon-swing .45s ease-in-out infinite alternate;
+    box-shadow: 0 .5rem 1.25rem rgba(0, 0, 0, .18);
+}
+
+.pokemon:active {
+    cursor: grabbing;
+    animation-play-state: paused;
+}
+
+@keyframes pokemon-swing {
+    from {
+        transform: rotate(-2deg) translateX(-3px);
+    }
+
+    to {
+        transform: rotate(2deg) translateX(3px);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .pokemon:hover {
+        animation: none;
+    }
 }
 
 .pokemon .number {
