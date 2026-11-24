@@ -1,4 +1,4 @@
-# 🔴 Pokedex
+# 🔴 Pokédex
 
 <div align="center">
 
@@ -8,7 +8,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![PokeAPI](https://img.shields.io/badge/PokeAPI-ef5350)
 
-Uma Pokedex web responsiva que apresenta os 151 primeiros Pokémon da PokeAPI.
+Uma Pokédex web responsiva que apresenta os 151 primeiros Pokémon da PokeAPI.
 
 O projeto permite explorar os Pokémon em uma lista com tipos e imagens, além de abrir um modal com detalhes adicionais.
 
@@ -45,15 +45,10 @@ Para executar o projeto, você precisa de:
 
 ## 🚀 Instalação
 
-### 1. Clone o repositório
+Clone o repositório e acesse a pasta do projeto:
 
 ```bash
 git clone https://github.com/rodolfolima2nd/Pokedex.git
-```
-
-### 2. Acesse a pasta do projeto
-
-```bash
 cd Pokedex
 ```
 
@@ -61,16 +56,14 @@ O projeto não possui instalação de pacotes. Não é necessário executar `npm
 
 ## ▶️ Como executar
 
-### Opção 1: Visual Studio Code
+### Visual Studio Code
 
 1. Abra a pasta do projeto no VS Code.
 2. Instale a extensão Live Server, se ainda não estiver disponível.
 3. Clique com o botão direito em `index.html`.
 4. Selecione **Open with Live Server**.
 
-O navegador exibirá o projeto em um endereço local, normalmente `http://127.0.0.1:5500`.
-
-### Opção 2: XAMPP
+### XAMPP
 
 1. Coloque a pasta do projeto dentro de `C:\xampp\htdocs`.
 2. Inicie o Apache pelo painel de controle do XAMPP.
@@ -108,15 +101,7 @@ Pokedex/
 
 ## 🧪 Testes
 
-O projeto não possui uma suíte de testes automatizados ou arquivos de configuração de qualidade.
-
-Para validar as alterações manualmente:
-
-1. Execute o projeto em um servidor local.
-2. Confirme que todos os Pokémon aparecem na grade.
-3. Abra os detalhes de diferentes Pokémon.
-4. Teste o fechamento do modal por todas as formas disponíveis.
-5. Verifique o comportamento em diferentes tamanhos de tela.
+O projeto não possui testes automatizados. Para validar as alterações, execute-o em um servidor local e verifique a carga dos Pokémon, a abertura e o fechamento dos detalhes e o layout em diferentes tamanhos de tela.
 
 ## 🤝 Contribuição
 
